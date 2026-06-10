@@ -1,0 +1,9 @@
+-dontwarn kotlin.**
+-keep class kotlin.** { *; }
+-dontwarn okhttp3.**
+-dontwarn okio.**
+-dontwarn javax.annotation.**
+-dontwarn androidx.**
+-keep class androidx.** { *; }
+-keepattributes *Annotation*
+-keepattributes SourceFile,LineNumberTable

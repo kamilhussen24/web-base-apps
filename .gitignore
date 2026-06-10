@@ -1,0 +1,13 @@
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+
+# Keystore — NEVER commit!
+app/keystore/
+keystore_base64.txt
+*.jks
+*.keystore
